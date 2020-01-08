@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Home</title>
+<link rel="stylesheet" type="text/css" href="css/sufokante.css">
+<script type = "text/javascript">
+<!--
+// ****************************************************
+// The event handler function to display the message
+
+      function displayIt(evt) {
+        var dom = document.getElementById("message");
+        dom.style.left = (evt.clientX - 130) + "px";
+        dom.style.top = (evt.clientY - 25) + "px";
+        dom.style.visibility = "visible";
+      }
+
+// ****************************************************
+// The event handler function to hide the message
+
+      function hideIt() {
+        document.getElementById("message").style.visibility =
+            "hidden";
+   	}
+// ****************************************************
+// -->
+    </script>
+</head>
+<body onmousedown = "displayIt(event)";
+	onmouseup = "hideIt();">
+    <p>
+      <span id= "message"  
+            style = "color: red; visibility: hidden;
+                     position: fixed;
+                     font-size: 0pt; font-style: italic;
+                     font-weight: bold;">
+         <img src="images/jpg/ernan.jpg" width="300px" height="300px">
+      </span>
+    </p>
+<div class="topnav">
+  <a href="Home.html">Home</a>
+
+		  <div class="dropdown">
+			    <button class="dropbtn">Works
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+					    <div class="header">
+					        <h2>SUFOKANTE'S WORKS</h2>
+					    </div>   
+						<div class="row">
+								<div class="column">
+									<h3>S t o r i e s</h3>
+									<a href="kabanataI.html">Kabanata I: Libro at Kwintas</a>
+									<a href="KabanataII.html">Kabanata II: Trahedya
+									<a href="KabanataIII.html">Kabanata III: Astral Plane</a>
+									<a href="KabanataIV.html">Kabanata IV: Daga</a>
+									<a href="KabanataV.html">Kabanata V: </a>
+									<a href="KabanataVI.html">Kabanata VI: </a>
+									<a href="KabanataVII.html">Kabanata VII: </a>
+									<a href="KabanataVIII.html">Kabanata VIII: </a>
+									<a href="KabanataIX.html">Kabanata IX: </a>
+									<a href="KabanataX.html">Kabanata X: </a>
+								</div>
+								<div class="column">
+									<h3>P o e m s</h3>
+									<a href="poems.html">Sana</a>
+									<a href="poems.html">Elastiko</a>
+									<a href="poems.html">Tadhana o Paghanga</a>
+									<a href="poems.html">Bulalakaw</a>
+									<a href="poems.html">Kalikasan</a>
+									<a href="poems.html">Takbo ng Panahon</a>
+									<a href="poems.html">Ulan</a>
+									<a href="poems.html">Pagkamuhi</a>
+									<a href="poems.html">Sufokante</a>
+									<a href="poems.html">About Poems</a>
+								</div>
+								<div class="column">
+								    <h3>D i a r y</h3>
+								    <a href="Day1.html">Day 1</a>
+								    <a href="Day2.html">Day 2</a>
+								      <a href="Day3.html">Day 3</a>
+								      <a href="Day4.html">Day 4</a>
+								      <a href="Day5.html">Day 5</a>
+								      <a href="Day6.html">Day 6</a>
+								      <a href="Day7.html">Day 7</a>
+								      <a href="Day8.html">Day 8</a>
+								      <a href="Day9.html">Day 9</a>
+								      <a href="Day10.html">Day 10</a>
+								</div>
+						</div>
+			    </div>
+		  </div> 
+</div>
+<div class="content">
+	<div id="left">
+		<p>Please Dont Click Anywhere!</p>
+	</div>
+</div>
+<div class="footer">
+	<div class="Copyright">
+		<p>Copyright &copy; 2019 by Ernan Sudario</p>
+	</div>
+		<div class="FootNav">
+		<a href="home.html">Home</a>
+		<a href="#">Contact Us</a>
+		<a href="#">About Us</a>
+		<a href="#">Privacy Policy</a>
+		</div>
+</div>
+</body>
+</html>
